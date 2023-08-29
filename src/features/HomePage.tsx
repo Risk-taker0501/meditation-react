@@ -105,7 +105,7 @@ const HomePage: React.FC = () => {
               </div>
               <div>
                 <img
-                  src="images/laughman.jpg"
+                  src="https://risk-taker0501.github.io/meditation-react/images/laughman.jpg"
                   alt="photo"
                   className="mx-auto rounded-2xl w-[455px] h-auto shadow-[1px_18px_36px_-9px_rgba(223.3645935058594,110.79569661052766,23.56388967513289,0.65)]"
                 />
@@ -169,7 +169,7 @@ const HomePage: React.FC = () => {
               <div className="md:w-2/5">
                 <img
                   className="rounded-[20px]"
-                  src="/images/ahmetoz_a_podcaster_man_with_a_microphone_with_podcast_title_on_af476cf5-1cfa-4f49-b667-cbe872b36fad-768x768.jpg"
+                  src="https://risk-taker0501.github.io/meditation-react/images/ahmetoz_a_podcaster_man_with_a_microphone_with_podcast_title_on_af476cf5-1cfa-4f49-b667-cbe872b36fad-768x768.jpg"
                   alt="jason"
                 />
               </div>
@@ -180,7 +180,7 @@ const HomePage: React.FC = () => {
           className="bg-fixed relative md:py-32 py-16 px-10 md:mt-40 mt-[20px] mb-32"
           style={{
             backgroundImage:
-              'url("/images/ahmetoz_people_supporting_a_podcast_show_ee16929c-d994-43e4-be56-4b0391a0c29b-copy.jpg")',
+              'url("https://risk-taker0501.github.io/meditation-react/images/ahmetoz_people_supporting_a_podcast_show_ee16929c-d994-43e4-be56-4b0391a0c29b-copy.jpg")',
             backgroundPosition: "center center",
             backgroundSize: "cover",
           }}
@@ -190,7 +190,7 @@ const HomePage: React.FC = () => {
             <div className="flex justify-center items-center md:w-2/5 w-full">
               <img
                 className="md:max-w-[120px] max-w-[46px]"
-                src="/images/mic-love.png"
+                src="https://risk-taker0501.github.io/meditation-react/images/mic-love.png"
                 alt="mic"
               />
             </div>
@@ -252,7 +252,7 @@ const HomePage: React.FC = () => {
             <div>
               <img
                 className="h-[80px] w-[80px] mx-auto rounded-full mt-8 mb-3"
-                src="/images/shamim-nakhaei-u6oXAJWx4sE-unsplash.jpg"
+                src="https://risk-taker0501.github.io/meditation-react/images/shamim-nakhaei-u6oXAJWx4sE-unsplash.jpg"
                 alt="face"
               />
               <h1 className="text-center uppercase text-[#7B5E93] text-[16px] font-[700] font-['Sen']">
@@ -278,7 +278,7 @@ const HomePage: React.FC = () => {
             <div>
               <img
                 className="h-[80px] w-[80px] mx-auto rounded-full mt-8 mb-3"
-                src="/images/shamim-nakhaei-u6oXAJWx4sE-unsplash.jpg"
+                src="https://risk-taker0501.github.io/meditation-react/images/shamim-nakhaei-u6oXAJWx4sE-unsplash.jpg"
                 alt="face"
               />
               <h1 className="text-center uppercase text-[#7B5E93] text-[16px] font-[700] font-['Sen']">
@@ -304,7 +304,7 @@ const HomePage: React.FC = () => {
             <div>
               <img
                 className="h-[80px] w-[80px] mx-auto rounded-full mt-8 mb-3"
-                src="/images/shamim-nakhaei-u6oXAJWx4sE-unsplash.jpg"
+                src="https://risk-taker0501.github.io/meditation-react/images/shamim-nakhaei-u6oXAJWx4sE-unsplash.jpg"
                 alt="face"
               />
               <h1 className="text-center uppercase text-[#7B5E93] text-[16px] font-[700] font-['Sen']">
@@ -330,7 +330,7 @@ const HomePage: React.FC = () => {
             <div>
               <img
                 className="h-[80px] w-[80px] mx-auto rounded-full mt-8 mb-3"
-                src="/images/shamim-nakhaei-u6oXAJWx4sE-unsplash.jpg"
+                src="https://risk-taker0501.github.io/meditation-react/images/shamim-nakhaei-u6oXAJWx4sE-unsplash.jpg"
                 alt="face"
               />
               <h1 className="text-center uppercase text-[#7B5E93] text-[16px] font-[700] font-['Sen']">
@@ -380,42 +380,42 @@ const HomePage: React.FC = () => {
           >
             <div className="!flex justify-center">
               <div className="mr-5 sm:h-[170px] h-[130px] w-[130px] sm:w-[166px] p-[32px] flex items-center bg-[#FFFFFF33] shadow-[-4px_8px_17px_-3px_rgba(0,0,0,.1)] rounded-[12%]">
-                <img src="/images/logo-08b.png" alt="logo" />1
+                <img src="https://risk-taker0501.github.io/meditation-react/images/logo-08b.png" alt="logo" />1
               </div>
               <div className="sm:h-[170px] h-[130px] w-[130px] sm:w-[166px] p-[32px] flex items-center bg-[#FFFFFF33] shadow-[-4px_8px_17px_-3px_rgba(0,0,0,.1)] rounded-[12%]">
-                <img src="/images/logo-08b.png" alt="logo" />2
+                <img src="https://risk-taker0501.github.io/meditation-react/images/logo-08b.png" alt="logo" />2
               </div>
             </div>
             <div className="!flex justify-center">
               <div className="mr-5 sm:h-[170px] h-[130px] w-[130px] sm:w-[166px] p-[32px] flex items-center bg-[#FFFFFF33] shadow-[-4px_8px_17px_-3px_rgba(0,0,0,.1)] rounded-[12%]">
-                <img src="/images/logo-08b.png" alt="logo" />1
+                <img src="https://risk-taker0501.github.io/meditation-react/images/logo-08b.png" alt="logo" />1
               </div>
               <div className="sm:h-[170px] h-[130px] w-[130px] sm:w-[166px] p-[32px] flex items-center bg-[#FFFFFF33] shadow-[-4px_8px_17px_-3px_rgba(0,0,0,.1)] rounded-[12%]">
-                <img src="/images/logo-08b.png" alt="logo" />2
+                <img src="https://risk-taker0501.github.io/meditation-react/images/logo-08b.png" alt="logo" />2
               </div>
             </div>
             <div className="!flex justify-center">
               <div className="mr-5 sm:h-[170px] h-[130px] w-[130px] sm:w-[166px] p-[32px] flex items-center bg-[#FFFFFF33] shadow-[-4px_8px_17px_-3px_rgba(0,0,0,.1)] rounded-[12%]">
-                <img src="/images/logo-08b.png" alt="logo" />1
+                <img src="https://risk-taker0501.github.io/meditation-react/images/logo-08b.png" alt="logo" />1
               </div>
               <div className="sm:h-[170px] h-[130px] w-[130px] sm:w-[166px] p-[32px] flex items-center bg-[#FFFFFF33] shadow-[-4px_8px_17px_-3px_rgba(0,0,0,.1)] rounded-[12%]">
-                <img src="/images/logo-08b.png" alt="logo" />2
+                <img src="https://risk-taker0501.github.io/meditation-react/images/logo-08b.png" alt="logo" />2
               </div>
             </div>
             <div className="!flex justify-center">
               <div className="mr-5 sm:h-[170px] h-[130px] w-[130px] sm:w-[166px] p-[32px] flex items-center bg-[#FFFFFF33] shadow-[-4px_8px_17px_-3px_rgba(0,0,0,.1)] rounded-[12%]">
-                <img src="/images/logo-08b.png" alt="logo" />1
+                <img src="https://risk-taker0501.github.io/meditation-react/images/logo-08b.png" alt="logo" />1
               </div>
               <div className="sm:h-[170px] h-[130px] w-[130px] sm:w-[166px] p-[32px] flex items-center bg-[#FFFFFF33] shadow-[-4px_8px_17px_-3px_rgba(0,0,0,.1)] rounded-[12%]">
-                <img src="/images/logo-08b.png" alt="logo" />2
+                <img src="https://risk-taker0501.github.io/meditation-react/images/logo-08b.png" alt="logo" />2
               </div>
             </div>
             <div className="!flex mb-5 justify-center">
               <div className="mr-5 sm:h-[170px] h-[130px] w-[130px] sm:w-[166px] p-[32px] flex items-center bg-[#FFFFFF33] shadow-[-4px_8px_17px_-3px_rgba(0,0,0,.1)] rounded-[12%]">
-                <img src="/images/logo-08b.png" alt="logo" />1
+                <img src="https://risk-taker0501.github.io/meditation-react/images/logo-08b.png" alt="logo" />1
               </div>
               <div className="sm:h-[170px] h-[130px] w-[130px] sm:w-[166px] p-[32px] flex items-center bg-[#FFFFFF33] shadow-[-4px_8px_17px_-3px_rgba(0,0,0,.1)] rounded-[12%]">
-                <img src="/images/logo-08b.png" alt="logo" />2
+                <img src="https://risk-taker0501.github.io/meditation-react/images/logo-08b.png" alt="logo" />2
               </div>
             </div>
           </Slider>
@@ -424,7 +424,7 @@ const HomePage: React.FC = () => {
           className="pb-[300px] relative"
           style={{
             backgroundImage:
-              'url("/images/ahmetoz_microphone_and_love_8640abf2-427c-49ba-9ecb-6d732bca9015.jpg")',
+              'url("https://risk-taker0501.github.io/meditation-react/images/ahmetoz_microphone_and_love_8640abf2-427c-49ba-9ecb-6d732bca9015.jpg")',
             backgroundPosition: "top center",
             backgroundSize: "cover",
           }}

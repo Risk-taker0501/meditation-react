@@ -73,14 +73,14 @@ const About: React.FC = () => {
               <div className="col md:pr-16 ">
                 <img
                   className="rounded-[24px] shadow-[0px_19px_33px_-11px_rgba(145.50000000000003,90.55694633152176,90.55694633152176,0.82)]"
-                  src="/public/images/man-working-radio-station-1920.jpg"
+                  src="https://risk-taker0501.github.io/meditation-react/images/man-working-radio-station-1920.jpg"
                   alt="radio"
                 />
               </div>
               <div className="col md:pl-16">
                 <img
                   className="rounded-[24px] md:mt-0 mt-12 shadow-[0px_19px_33px_-11px_rgba(145.50000000000003,90.55694633152176,90.55694633152176,0.82)]"
-                  src="/public/images/young-man-enjoying-music-while-walking-streets-1920.jpg"
+                  src="https://risk-taker0501.github.io/meditation-react/images/young-man-enjoying-music-while-walking-streets-1920.jpg"
                   alt="youngman"
                 />
               </div>
@@ -91,7 +91,7 @@ const About: React.FC = () => {
           className="bg-fixed relative md:py-32 py-16 px-10 md:mt-40 mt-[20px]"
           style={{
             backgroundImage:
-              'url("/images/ahmetoz_people_supporting_a_podcast_show_ee16929c-d994-43e4-be56-4b0391a0c29b-copy.jpg")',
+              'url("https://risk-taker0501.github.io/meditation-react/images/ahmetoz_people_supporting_a_podcast_show_ee16929c-d994-43e4-be56-4b0391a0c29b-copy.jpg")',
             backgroundPosition: "center center",
             backgroundSize: "cover",
           }}
@@ -101,7 +101,7 @@ const About: React.FC = () => {
             <div className="flex justify-center items-center md:w-2/5 w-full">
               <img
                 className="md:max-w-[120px] max-w-[46px]"
-                src="/images/mic-love.png"
+                src="https://risk-taker0501.github.io/meditation-react/images/mic-love.png"
                 alt="mic"
               />
             </div>
