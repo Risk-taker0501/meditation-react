@@ -105,7 +105,7 @@ const HomePage: React.FC = () => {
               </div>
               <div>
                 <img
-                  src="/images/laughman.jpg"
+                  src="https://risk-taker0501.github.io/meditation-react/images/laughman.jpg"
                   alt="photo"
                   className="mx-auto rounded-2xl w-[455px] h-auto shadow-[1px_18px_36px_-9px_rgba(223.3645935058594,110.79569661052766,23.56388967513289,0.65)]"
                 />
