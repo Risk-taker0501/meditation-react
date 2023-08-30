@@ -1,10 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-import { faPatreon } from "@fortawesome/free-brands-svg-icons";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 const GradientBackground = styled.div`
   width: 100%;
   background: #fdebd0;
