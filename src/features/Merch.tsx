@@ -1,6 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
+import { faPatreon } from "@fortawesome/free-brands-svg-icons";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const GradientBackground = styled.div`
   width: 100%;
   background: #fdebd0;
@@ -40,7 +44,7 @@ const Merch: React.FC = () => {
                 <img src="/images/teapot-550x550.jpg" alt="teapot" />
                 <div className="py-10 px-5 mb-5">
                   <h1 className="text-[1.4rem] font-[700] font-space-grotesk">
-                    Teapot
+                   Teapot
                   </h1>
                   <div className="text-[#444] leading-[1.4] font-jost my-2">
                     <span className="">$90.00</span>
@@ -66,7 +70,7 @@ const Merch: React.FC = () => {
                 <img src="/images/radio-550x550.jpg" alt="radio" />
                 <div className="py-10 px-5 mb-5">
                   <h1 className="text-[1.4rem] font-[700] font-space-grotesk">
-                    Old Radio
+                  Old Radio
                   </h1>
                   <div className="text-[#444] leading-[1.4] font-jost my-2">
                     <span className="">$90.00</span>
@@ -77,7 +81,7 @@ const Merch: React.FC = () => {
                 <img src="/images/paper-550x550.jpg" alt="paper" />
                 <div className="py-10 px-5 mb-5">
                   <h1 className="text-[1.4rem] font-[700] font-space-grotesk">
-                    Paper
+                   Paper
                   </h1>
                   <div className="text-[#444] leading-[1.4] font-jost my-2">
                     <span className="">$90.00</span>

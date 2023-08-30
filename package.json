@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "serve": "vite preview",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\""
   },
@@ -15,6 +15,7 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@reduxjs/toolkit": "^1.6.1",
     "@szhsin/react-menu": "^4.0.3",
+    "@types/node": "^20.5.7",
     "@types/react-slick": "^0.23.10",
     "@vitejs/plugin-react": "^3.0.0",
     "react": "^18",
@@ -26,7 +27,7 @@
     "styled-components": "^6.0.7"
   },
   "devDependencies": {
-    "@types/react": "^18.0.17",
+    "@types/react": "^18.2.21",
     "@types/react-dom": "^18.0.9",
     "@typescript-eslint/eslint-plugin": "^5.2.0",
     "@typescript-eslint/parser": "^5.36.0",
@@ -36,6 +37,7 @@
     "eslint-plugin-react": "^7.26.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "postcss": "^8.4.5",
+    "react-modern-audio-player": "^1.4.0-rc.2",
     "tailwindcss": "^3.0.5",
     "typescript": "^4.8.2",
     "vite": "^4.0.1"

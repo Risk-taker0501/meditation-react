@@ -27,7 +27,6 @@ const GradientBackground = styled.div`
 interface ArrowProps {
   className?: string;
   onClick?: React.MouseEventHandler;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   style?: any;
 }
 

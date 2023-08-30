@@ -5,6 +5,7 @@ import HomePage from "./features/HomePage";
 import Header from "./components/Header";
 import About from "./features/About";
 import Merch from "./features/Merch";
+import Episode from "./features/Episode";
 
 function App(): JSX.Element {
   return (
@@ -15,6 +16,7 @@ function App(): JSX.Element {
           <Route path="/" Component={HomePage} />
           <Route path="/about" Component={About} />
           <Route path="/merch" Component={Merch} />
+          <Route path="/episode" Component={Episode} />
         </Routes>
       </div>
     </Router>

@@ -11,9 +11,6 @@ const config = {
       },
     },
   },
-  "compilerOptions": {
-    "skipLibCheck": true
-  },
   plugins: [],
 };
 
