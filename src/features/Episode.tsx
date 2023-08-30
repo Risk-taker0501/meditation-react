@@ -7,7 +7,8 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import styled from "styled-components";
-import MediaPlayer from "react-modern-audio-player";
+import MediaPlayer from "react-h5-audio-player";
+import "react-h5-audio-player/lib/styles.css";
 import {
   faFacebookF,
   faPinterest,
@@ -33,15 +34,22 @@ const Container = styled.div`
 const GradientBackground = styled.div`
   width: 100%;
   background: #fdebd0;
-  & .interface-grid {
+  & .rhap_container {
     background: #24212c !important;
+    box-shadow: none;
+    & .rhap_time {
+      color: white !important;
+    }
+    & .rhap_controls-section {
+        margin-top: -40px !important;
+    }
   }
 `;
 
 const Episode = () => {
   return (
     <GradientBackground>
-      <Container className="container mx-auto pt-24">
+      <Container className="container mx-auto relative pt-24">
         <div className="w-full h-full py-48">
           <div className="text-white text-center">
             <h1 className="text-[48px] font-space-grotesk ">
@@ -61,29 +69,16 @@ const Episode = () => {
             </span>
           </div>
         </div>
-        <div className="max-w-[740px] mx-auto px-6 bg-[#24212c] rounded-3xl">
-          <MediaPlayer
-            playList={[
-              {
-                name: "name",
-                writer: "writer",
-                img: "/images/laughman.jpg",
-                src: "/audio/3.mp3",
-                id: 1,
-              },
-            ]}
-            activeUI={{
-              playButton: true,
-              volume: true,
-              volumeSlider: true,
-              progress: "bar",
-              artwork: true,
-              trackTime: true,
-            }}
+        <div className="absolute bottom-0 right-[calc(50%-370px)] flex mb-[-50px] w-[740px] mx-auto bg-[#24212c] rounded-xl pr-3 shadow-[rgba(33,33,33,0.4)_0px_0px_30px_6px]">
+          <img
+            src="/images/laughman.jpg"
+            alt="laughman"
+            className="w-[150px] h-[150px] rounded-l-xl"
           />
+          <MediaPlayer src="/audio/3.mp3" className="text-white" />
         </div>
       </Container>
-      <div className="max-w-[740px] mx-auto font-['Sen'] text-[#444] text-[16px] ">
+      <div className="max-w-[740px] mx-auto font-['Sen'] text-[#444] text-[16px] mt-20 ">
         <div className="uppercase flex text-[13px] font-[600] mt-5 mb-8">
           <a
             href="https://themes.pixelwars.org/podify/demo-01/podcast-download/119/episode-04-the-digital-nomad-lifestyle-facts.mp3?ref=download"
@@ -219,21 +214,27 @@ const Episode = () => {
             <h3 className="text-[#444] font-jost font-[700] text-[11px] text-center my-3 uppercase">
               <FontAwesomeIcon icon={faCalendar} /> NOVEMBER 24, 2020
             </h3>
-            <h4 className="text-center text-[20px] font-[700] font-space-grotesk">An honest guide to the San Francisco startup life</h4>
+            <h4 className="text-center text-[20px] font-[700] font-space-grotesk">
+              An honest guide to the San Francisco startup life
+            </h4>
           </div>
           <div className="col p-[20px] hover:cursor-pointer">
             <img src="/images/di_an_h-CjCT-R7wrZ8-unsplash.jpg" alt="b4" />
             <h3 className="text-[#444] font-jost font-[700] text-[11px] text-center my-3 uppercase">
               <FontAwesomeIcon icon={faCalendar} /> NOVEMBER 24, 2020
             </h3>
-            <h4 className="text-center text-[20px] font-[700] font-space-grotesk">An honest guide to the San Francisco startup life</h4>
+            <h4 className="text-center text-[20px] font-[700] font-space-grotesk">
+              An honest guide to the San Francisco startup life
+            </h4>
           </div>
           <div className="col p-[20px] hover:cursor-pointer">
             <img src="/images/bb-01.jpg" alt="b4" />
             <h3 className="text-[#444] font-jost font-[700] text-[11px] text-center my-3 uppercase">
               <FontAwesomeIcon icon={faCalendar} /> NOVEMBER 24, 2020
             </h3>
-            <h4 className="text-center text-[20px] font-[700] font-space-grotesk">An honest guide to the San Francisco startup life</h4>
+            <h4 className="text-center text-[20px] font-[700] font-space-grotesk">
+              An honest guide to the San Francisco startup life
+            </h4>
           </div>
         </div>
       </div>
