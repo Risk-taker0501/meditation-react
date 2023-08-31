@@ -26,7 +26,7 @@ const TitleWrapper = styled.h3`
 `;
 
 const Container = styled.div`
-  background: url("/images/ahmetoz_microphone_and_love_8640abf2-427c-49ba-9ecb-6d732bca9015.jpg")
+  background: url("/meditation-react/images/ahmetoz_microphone_and_love_8640abf2-427c-49ba-9ecb-6d732bca9015.jpg")
     center center/cover no-repeat;
   background-attachment: fixed;
 `;
