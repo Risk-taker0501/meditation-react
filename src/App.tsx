@@ -13,10 +13,10 @@ function App(): JSX.Element {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/" Component={HomePage} />
-          <Route path="/about" Component={About} />
-          <Route path="/merch" Component={Merch} />
-          <Route path="/episode" Component={Episode} />
+          <Route path="/meditaion-react" Component={HomePage} />
+          <Route path="/meditaion-react/about" Component={About} />
+          <Route path="/meditaion-react/merch" Component={Merch} />
+          <Route path="/meditaion-react/episode" Component={Episode} />
         </Routes>
       </div>
     </Router>
