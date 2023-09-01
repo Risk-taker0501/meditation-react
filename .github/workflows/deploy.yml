@@ -23,7 +23,7 @@ jobs:
       - name: install dependencies
         run: npm i
       - name: build app
-        run: npm run build
+        run: npm run deploy
         env:
           PUBLIC_URL: /meditation-react
       - name: upload artifact
