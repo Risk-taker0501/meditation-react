@@ -6,7 +6,6 @@
     "dev": "vite",
     "build": "tsc && vite build && cp dist/index.html dist/404.html",
     "deploy": "npm run build",
-    // "deploy": "git --global config user.email risk.taker2024@gmail.com && git --global config user.name Risk-taker0501 && gh-pages -d dist",
     "serve": "vite preview",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\""
   },
