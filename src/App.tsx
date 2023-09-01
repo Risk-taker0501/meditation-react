@@ -17,6 +17,7 @@ function App(): JSX.Element {
           <Route path="/meditation-react/about" Component={About} />
           <Route path="/meditation-react/merch" Component={Merch} />
           <Route path="/meditation-react/episode" Component={Episode} />
+          <Route path="*" element={<div>page not found</div>} />
         </Routes>
       </div>
     </Router>

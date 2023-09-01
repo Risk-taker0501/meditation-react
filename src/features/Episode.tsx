@@ -41,12 +41,12 @@ const GradientBackground = styled.div`
       color: white !important;
     }
     & .rhap_controls-section {
-        margin-top: -40px !important;
+      margin-top: -40px !important;
     }
   }
 `;
 
-const Episode = () => {
+const Episode: React.FC = () => {
   return (
     <GradientBackground>
       <Container className="container mx-auto relative pt-24">
@@ -75,7 +75,10 @@ const Episode = () => {
             alt="laughman"
             className="w-[150px] h-[150px] rounded-l-xl"
           />
-          <MediaPlayer src="/meditation-react/audio/3.mp3" className="text-white" />
+          <MediaPlayer
+            src="/meditation-react/audio/3.mp3"
+            className="text-white"
+          />
         </div>
       </Container>
       <div className="max-w-[740px] mx-auto font-['Sen'] text-[#444] text-[16px] mt-20 ">
@@ -219,7 +222,10 @@ const Episode = () => {
             </h4>
           </div>
           <div className="col p-[20px] hover:cursor-pointer">
-            <img src="/meditation-react/images/di_an_h-CjCT-R7wrZ8-unsplash.jpg" alt="b4" />
+            <img
+              src="/meditation-react/images/di_an_h-CjCT-R7wrZ8-unsplash.jpg"
+              alt="b4"
+            />
             <h3 className="text-[#444] font-jost font-[700] text-[11px] text-center my-3 uppercase">
               <FontAwesomeIcon icon={faCalendar} /> NOVEMBER 24, 2020
             </h3>
