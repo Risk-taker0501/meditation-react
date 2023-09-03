@@ -4,42 +4,42 @@
 
 @font-face {
     font-family: 'This July';
-    src: url('/meditation-react/fonts/FontsFree-Net-This-July.ttf') format('truetype');
+    src: url('fonts/FontsFree-Net-This-July.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Jost';
-    src: url('/meditation-react/fonts/JostVariableFont_wght.ttf') format('truetype');
+    src: url('fonts/JostVariableFont_wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Archivo';
-    src: url('/meditation-react/fonts/Archivo-Regular.ttf') format('truetype');
+    src: url('fonts/Archivo-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'SpaceGrotesk';
-    src: url('/meditation-react/fonts/FontsFree-Net-FontsFree-Net-SpaceGrotesk-SemiBold.ttf') format('truetype');
+    src: url('fonts/FontsFree-Net-FontsFree-Net-SpaceGrotesk-SemiBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Lovers Quarrel";
-    src: url('/meditation-react/fonts/LoversQuarrel-Regular.ttf') format('truetype');
+    src: url('fonts/LoversQuarrel-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Sen";
-    src: url('/meditation-react/fonts/Sen-VariableFont_wght.ttf') format('truetype');
+    src: url('fonts/Sen-VariableFont_wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
