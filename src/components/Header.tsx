@@ -49,7 +49,7 @@ const Header = () => {
               <Dropdown name="Courses" />
             </Link>
             <Link className="h-full" to={"/"}>
-              <Dropdown name="Subscribe" />
+              <Dropdown name="Spotify " />
             </Link>
             <Link className="h-full" to={"/about"}>
               <Dropdown name="About" />
@@ -91,7 +91,7 @@ const Header = () => {
                 className="font-proxima-nova font-medium text-[16px] uppercase"
                 onClick={()=>setIsHamgurgerOpen(false)}
               >
-                Shopify
+                Spotify 
               </Link>
             </li>
             <li className="inline-block px-[15px] py-[6px]">
