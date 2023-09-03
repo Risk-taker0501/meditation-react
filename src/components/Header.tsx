@@ -42,19 +42,19 @@ const Header = () => {
         <Logo />
         <div className="hidden md:block h-full">
           <ul className="h-full flex items-center">
-            <Link className="h-full" to={"/meditation-react/"}>
+            <Link className="h-full" to={"/meditation-react//"}>
               <Dropdown name="Home" />
             </Link>
-            <Link className="h-full" to={"/meditation-react/courses"}>
+            <Link className="h-full" to={"/meditation-react//courses"}>
               <Dropdown name="Courses" />
             </Link>
-            <Link className="h-full" to={"/meditation-react/#"}>
+            <Link className="h-full" to={"/meditation-react//#"}>
               <Dropdown name="Subscribe" />
             </Link>
-            <Link className="h-full" to={"/meditation-react/about"}>
+            <Link className="h-full" to={"/meditation-react//about"}>
               <Dropdown name="About" />
             </Link>
-            <Link className="h-full" to={"/meditation-react/merch"}>
+            <Link className="h-full" to={"/meditation-react//merch"}>
               <Dropdown name="Merch" />
             </Link>
           </ul>
@@ -69,7 +69,7 @@ const Header = () => {
           <ul className="flex flex-col items-center h-full justify-center ">
             <li className="inline-block px-[15px] py-[6px]">
               <Link
-                to="/meditation-react/"
+                to="/meditation-react//"
                 className="font-proxima-nova font-medium text-[16px] uppercase"
                 onClick={()=>setIsHamgurgerOpen(false)}
               >
@@ -78,7 +78,7 @@ const Header = () => {
             </li>
             <li className="inline-block px-[15px] py-[6px]">
               <Link
-                to="/meditation-react/courses"
+                to="/meditation-react//courses"
                 className=" font-proxima-nova font-medium text-[16px] uppercase"
                 onClick={()=>setIsHamgurgerOpen(false)}
               >
@@ -87,7 +87,7 @@ const Header = () => {
             </li>
             <li className="inline-block px-[15px] py-[6px]">
               <Link
-                to="/meditation-react/"
+                to="/meditation-react//"
                 className="font-proxima-nova font-medium text-[16px] uppercase"
                 onClick={()=>setIsHamgurgerOpen(false)}
               >
@@ -96,7 +96,7 @@ const Header = () => {
             </li>
             <li className="inline-block px-[15px] py-[6px]">
               <Link
-                to="/meditation-react/about"
+                to="/meditation-react//about"
                 className="font-proxima-nova font-medium text-[16px] uppercase"
                 onClick={()=>setIsHamgurgerOpen(false)}
               >
@@ -105,7 +105,7 @@ const Header = () => {
             </li>
             <li className="inline-block px-[15px] py-[6px]">
               <Link
-                to="/meditation-react/merch"
+                to="/meditation-react//merch"
                 className="font-proxima-nova font-medium text-[16px] uppercase"
                 onClick={()=>setIsHamgurgerOpen(false)}
               >

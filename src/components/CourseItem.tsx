@@ -11,13 +11,13 @@ const CourseItem = () => {
       <div className="relative overflow-hidden rounded-xl">
         <img
           className="object-cover  sm:w-fill h-[300px] group-hover:scale-110 transition-all duration-500"
-          src="/meditation-reactimages/course21.jpg"
+          src="/meditation-react/images/course21.jpg"
           alt=""
           loading="lazy"
         />
         <div className="absolute right-0 top-[80px] h-10 w-[180px] rounded-l-lg bg-blue-800 hover:bg-white hover:text-blue-800 transition duration-500 text-white opacity-0 group-hover:opacity-100">
           <Link
-            to="/meditation-react"
+            to="/meditation-react/"
             rel="tag"
             className="flex justify-center items-center h-full"
           >
@@ -65,7 +65,7 @@ const CourseItem = () => {
           </div>
           <div className="opacity-0 group-hover:opacity-100 transition duration-500">
             <Link
-              to="/meditation-react"
+              to="/meditation-react/"
               className="flex items-center justify-center rounded-full text-center hover:bg-blue-800 transition-colors duration-500 bg-white w-[150px] h-10 font-bold hover:text-white text-black"
             >
               Read more

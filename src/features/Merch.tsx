@@ -20,7 +20,7 @@ const Merch: React.FC = () => {
             <div className="grid lg:grid-cols-3 md:grid-cols-2">
               <div className="col px-3 relative">
                 <img
-                  src="/meditation-reactimages/amy-shamblen-5TbhW1YFWuU-unsplash-1-550x550.jpg"
+                  src="/meditation-react/images/amy-shamblen-5TbhW1YFWuU-unsplash-1-550x550.jpg"
                   alt="wooden"
                 />
                 <span className="absolute font-['Sen'] font-bold tracking-[1px] uppercase  text-[11px] top-[-28px] left-[28px] w-[60px] bg-[#111] text-white text-center h-[60px] flex justify-center rounded-full items-center">
@@ -37,7 +37,7 @@ const Merch: React.FC = () => {
                 </div>
               </div>
               <div className="col px-3 relative">
-                <img src="/meditation-reactimages/teapot-550x550.jpg" alt="teapot" />
+                <img src="/meditation-react/images/teapot-550x550.jpg" alt="teapot" />
                 <div className="py-10 px-5 mb-5">
                   <h1 className="text-[1.4rem] font-[700] font-space-grotesk">
                     Teapot
@@ -48,7 +48,7 @@ const Merch: React.FC = () => {
                 </div>
               </div>
               <div className="col px-3 relative">
-                <img src="/meditation-reactimages/head-550x550.jpg" alt="head" />
+                <img src="/meditation-react/images/head-550x550.jpg" alt="head" />
                 <span className="absolute font-['Sen'] font-bold tracking-[1px] uppercase  text-[11px] top-[-28px] left-[28px] w-[60px] bg-[#111] text-white text-center h-[60px] flex justify-center rounded-full items-center">
                   sale
                 </span>
@@ -63,7 +63,7 @@ const Merch: React.FC = () => {
                 </div>
               </div>
               <div className="col px-3 relative">
-                <img src="/meditation-reactimages/radio-550x550.jpg" alt="radio" />
+                <img src="/meditation-react/images/radio-550x550.jpg" alt="radio" />
                 <div className="py-10 px-5 mb-5">
                   <h1 className="text-[1.4rem] font-[700] font-space-grotesk">
                     Old Radio
@@ -74,7 +74,7 @@ const Merch: React.FC = () => {
                 </div>
               </div>
               <div className="col px-3 relative">
-                <img src="/meditation-reactimages/paper-550x550.jpg" alt="paper" />
+                <img src="/meditation-react/images/paper-550x550.jpg" alt="paper" />
                 <div className="py-10 px-5 mb-5">
                   <h1 className="text-[1.4rem] font-[700] font-space-grotesk">
                     Paper
@@ -85,7 +85,7 @@ const Merch: React.FC = () => {
                 </div>
               </div>
               <div className="col px-3 relative">
-                <img src="/meditation-reactimages/typewriter-1-550x550.jpg" alt="typewriter" />
+                <img src="/meditation-react/images/typewriter-1-550x550.jpg" alt="typewriter" />
                 <div className="py-10 px-5 mb-5">
                   <h1 className="text-[1.4rem] font-[700] font-space-grotesk">
                     Typewriter

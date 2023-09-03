@@ -13,7 +13,7 @@ const Courses: React.FC = () => {
     background-image: linear-gradient(to bottom, #fdebd0, #d2b4de, #fdebd0);
   `;
   const HeaderContainer = styled.div`
-    background-image: url("/meditation-reactimages/ahmetoz_microphone_and_love_8640abf2-427c-49ba-9ecb-6d732bca9015.jpg");
+    background-image: url("/meditation-react/images/ahmetoz_microphone_and_love_8640abf2-427c-49ba-9ecb-6d732bca9015.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;

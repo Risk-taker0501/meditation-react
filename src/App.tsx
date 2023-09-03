@@ -10,15 +10,15 @@ import Courses from "./features/Courses";
 
 function App(): JSX.Element {
   return (
-    <Router basename="react-meditation">
+    <Router basename="meditation-react">
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/meditation-react" Component={HomePage} />
-          <Route path="/meditation-reactcourses" Component={Courses} />
-          <Route path="/meditation-reactabout" Component={About} />
-          <Route path="/meditation-reactmerch" Component={Merch} />
-          <Route path="/meditation-reactepisode" Component={Episode} />
+          <Route path="/" Component={HomePage} />
+          <Route path="/courses" Component={Courses} />
+          <Route path="/about" Component={About} />
+          <Route path="/merch" Component={Merch} />
+          <Route path="/episode" Component={Episode} />
         </Routes>
       </div>
     </Router>

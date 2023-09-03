@@ -26,7 +26,7 @@ const TitleWrapper = styled.h3`
 `;
 
 const Container = styled.div`
-  background-image: url("/meditation-reactimages/ahmetoz_microphone_and_love_8640abf2-427c-49ba-9ecb-6d732bca9015.jpg");
+  background-image: url("/meditation-react/images/ahmetoz_microphone_and_love_8640abf2-427c-49ba-9ecb-6d732bca9015.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -74,11 +74,11 @@ const Episode: React.FC = () => {
         </div>
         <div className="absolute bottom-0 right-[calc(50%-370px)] flex mb-[-50px] w-[740px] mx-auto bg-[#24212c] rounded-xl pr-3 shadow-[rgba(33,33,33,0.4)_0px_0px_30px_6px]">
           <img
-            src="/meditation-reactimages/laughman.jpg"
+            src="/meditation-react/images/laughman.jpg"
             alt="laughman"
             className="w-[150px] h-[150px] rounded-l-xl"
           />
-          <MediaPlayer src="/meditation-reactaudio/3.mp3" className="text-white" />
+          <MediaPlayer src="/meditation-react/audio/3.mp3" className="text-white" />
         </div>
       </Container>
       <div className="max-w-[740px] mx-auto font-['Sen'] text-[#444] text-[16px] mt-20 ">
@@ -170,7 +170,7 @@ const Episode: React.FC = () => {
             >
               <img
                 className="w-[110px] h-[110px] rounded-full"
-                src="/meditation-reactimages/hong-nguyen-fTsmxmjwvUk-unsplash-300x300.jpg"
+                src="/meditation-react/images/hong-nguyen-fTsmxmjwvUk-unsplash-300x300.jpg"
                 alt="hong"
               />
               <div className="flex flex-col pt-4 ml-6">
@@ -198,7 +198,7 @@ const Episode: React.FC = () => {
               </div>
               <img
                 className="w-[110px] h-[110px] rounded-full"
-                src="/meditation-reactimages/martin-sanchez-sp28h4ugLts-unsplash-300x300.jpg"
+                src="/meditation-react/images/martin-sanchez-sp28h4ugLts-unsplash-300x300.jpg"
                 alt="hong"
               />
             </a>
@@ -213,7 +213,7 @@ const Episode: React.FC = () => {
         </TitleWrapper>
         <div className="grid grid-cols-3">
           <div className="col p-[20px] hover:cursor-pointer">
-            <img src="/meditation-reactimages/b-04.jpg" alt="b4" />
+            <img src="/meditation-react/images/b-04.jpg" alt="b4" />
             <h3 className="text-[#444] font-jost font-[700] text-[11px] text-center my-3 uppercase">
               <FontAwesomeIcon icon={faCalendar} /> NOVEMBER 24, 2020
             </h3>
@@ -222,7 +222,7 @@ const Episode: React.FC = () => {
             </h4>
           </div>
           <div className="col p-[20px] hover:cursor-pointer">
-            <img src="/meditation-reactimages/di_an_h-CjCT-R7wrZ8-unsplash.jpg" alt="b4" />
+            <img src="/meditation-react/images/di_an_h-CjCT-R7wrZ8-unsplash.jpg" alt="b4" />
             <h3 className="text-[#444] font-jost font-[700] text-[11px] text-center my-3 uppercase">
               <FontAwesomeIcon icon={faCalendar} /> NOVEMBER 24, 2020
             </h3>
@@ -231,7 +231,7 @@ const Episode: React.FC = () => {
             </h4>
           </div>
           <div className="col p-[20px] hover:cursor-pointer">
-            <img src="/meditation-reactimages/bb-01.jpg" alt="b4" />
+            <img src="/meditation-react/images/bb-01.jpg" alt="b4" />
             <h3 className="text-[#444] font-jost font-[700] text-[11px] text-center my-3 uppercase">
               <FontAwesomeIcon icon={faCalendar} /> NOVEMBER 24, 2020
             </h3>
