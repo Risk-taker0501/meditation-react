@@ -42,19 +42,19 @@ const Header = () => {
         <Logo />
         <div className="hidden md:block h-full">
           <ul className="h-full flex items-center">
-            <Link className="h-full" to={"/meditation-react//"}>
+            <Link className="h-full" to={"/meditation-react/"}>
               <Dropdown name="Home" />
             </Link>
-            <Link className="h-full" to={"/meditation-react//courses"}>
+            <Link className="h-full" to={"/meditation-react/courses"}>
               <Dropdown name="Courses" />
             </Link>
-            <Link className="h-full" to={"/meditation-react//#"}>
+            <Link className="h-full" to={"/meditation-react/"}>
               <Dropdown name="Subscribe" />
             </Link>
-            <Link className="h-full" to={"/meditation-react//about"}>
+            <Link className="h-full" to={"/meditation-react/about"}>
               <Dropdown name="About" />
             </Link>
-            <Link className="h-full" to={"/meditation-react//merch"}>
+            <Link className="h-full" to={"/meditation-react/merch"}>
               <Dropdown name="Merch" />
             </Link>
           </ul>
