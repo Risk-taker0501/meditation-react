@@ -87,11 +87,11 @@ const Header = () => {
             </li>
             <li className="inline-block px-[15px] py-[6px]">
               <Link
-                to="/"
+                to="https://podcasters.spotify.com/pod/show/whitenoise369"
                 className="font-proxima-nova font-medium text-[16px] uppercase"
                 onClick={()=>setIsHamgurgerOpen(false)}
               >
-                Subscribe
+                Shopify
               </Link>
             </li>
             <li className="inline-block px-[15px] py-[6px]">
