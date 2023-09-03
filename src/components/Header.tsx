@@ -48,7 +48,7 @@ const Header = () => {
             <Link className="h-full" to={"/courses"}>
               <Dropdown name="Courses" />
             </Link>
-            <Link className="h-full" to={"/"}>
+            <Link className="h-full" to={"https://podcasters.spotify.com/pod/show/whitenoise369"}>
               <Dropdown name="Spotify " />
             </Link>
             <Link className="h-full" to={"/about"}>
