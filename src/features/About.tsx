@@ -125,7 +125,7 @@ const About: React.FC = () => {
           </div>
         </div>
         <div className="text-center tracking-[3px] font-[700] font-jost py-4">
-          ©2023 THE LAUGH FACTORY
+          ©2023 THE BALANCED WELLNESS
         </div>
       </GradientBackground>
     </>
