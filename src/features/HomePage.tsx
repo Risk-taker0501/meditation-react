@@ -36,9 +36,9 @@ const HomePage: React.FC = () => {
                   Welcome to
                 </p>
                 <p className="font-bold text-center font-space-grotesk md:text-5xl text-[22px] relative z-10">
-                  The Laugh{" "}
+                  The Wellness
                   <span className="text-transparent bg-gradient-to-r bg-clip-text from-red-500 to-blue-500">
-                    Factory
+                    Balanced
                   </span>
                 </p>
                 <span className="absolute font-archivo md:text-[90px] text-[40px] font-bold drop-shadow-md opacity-50 text-white leading-[120px] top-1/3 left-[40px] md:left-1/3 z-0">
@@ -119,11 +119,12 @@ const HomePage: React.FC = () => {
           <div className="flex w-full px-[2.4rem] py-[4%] bg-[#FFF9CD66] shadow-[0_2px_4px_#0000001a] rounded mb-3">
             <div className="w-1/4 pr-[4%] flex items-center">
               <div>
-              <img
-                className="rounded"
-                src="/meditation-react/images/https___megaphone.imgix.net_podcasts_44edeb4a-2ae2-11ed-a26e-6fab10a77fe4_image_Sleep_Wave_-_Sleep_Meditations.png_ixlib=rails-4.3.avif"
-                alt=""
-              /></div>
+                <img
+                  className="rounded"
+                  src="/meditation-react/images/https___megaphone.imgix.net_podcasts_44edeb4a-2ae2-11ed-a26e-6fab10a77fe4_image_Sleep_Wave_-_Sleep_Meditations.png_ixlib=rails-4.3.avif"
+                  alt=""
+                />
+              </div>
             </div>
             <div className="w-3/4">
               <div className="mb-7">
@@ -141,7 +142,9 @@ const HomePage: React.FC = () => {
                 </span>
               </div>
               <div className="mb-1">
-                <h1 className="font-[700] text-[2rem] font-['Sen'] hover:text-[#844eb1] hover:cursor-pointer">Sleep Meditation - Creating Space To Be</h1>
+                <h1 className="font-[700] text-[2rem] font-['Sen'] hover:text-[#844eb1] hover:cursor-pointer">
+                  Sleep Meditation - Creating Space To Be
+                </h1>
               </div>
               <div>
                 <p className="text-[1rem] tracking-[0.5px] mb-8">
@@ -154,18 +157,22 @@ const HomePage: React.FC = () => {
                 </p>
               </div>
               <div className="text-[56px] text-[#844eb1] ">
-                <FontAwesomeIcon icon={faCirclePlay} className="hover:text-[#25ccee] duration-[.2s] transition-colors hover:cursor-pointer"/>
+                <FontAwesomeIcon
+                  icon={faCirclePlay}
+                  className="hover:text-[#25ccee] duration-[.2s] transition-colors hover:cursor-pointer"
+                />
               </div>
             </div>
           </div>
           <div className="flex w-full px-[2.4rem] py-[4%] bg-[#FFF9CD66] shadow-[0_2px_4px_#0000001a] rounded">
             <div className="w-1/4 pr-[4%] flex items-center">
               <div>
-              <img
-                className="rounded"
-                src="/images/https___megaphone.imgix.net_podcasts_44edeb4a-2ae2-11ed-a26e-6fab10a77fe4_image_Sleep_Wave_-_Sleep_Meditations.png_ixlib=rails-4.3.avif"
-                alt=""
-              /></div>
+                <img
+                  className="rounded"
+                  src="/images/https___megaphone.imgix.net_podcasts_44edeb4a-2ae2-11ed-a26e-6fab10a77fe4_image_Sleep_Wave_-_Sleep_Meditations.png_ixlib=rails-4.3.avif"
+                  alt=""
+                />
+              </div>
             </div>
             <div className="w-3/4">
               <div className="mb-7">
@@ -183,7 +190,9 @@ const HomePage: React.FC = () => {
                 </span>
               </div>
               <div className="mb-1">
-                <h1 className="font-[700] text-[2rem] font-['Sen'] hover:text-[#844eb1] hover:cursor-pointer">Sleep Meditation - Creating Space To Be</h1>
+                <h1 className="font-[700] text-[2rem] font-['Sen'] hover:text-[#844eb1] hover:cursor-pointer">
+                  Sleep Meditation - Creating Space To Be
+                </h1>
               </div>
               <div>
                 <p className="text-[1rem] tracking-[0.5px] mb-8">
@@ -196,7 +205,10 @@ const HomePage: React.FC = () => {
                 </p>
               </div>
               <div className="text-[56px] text-[#844eb1]">
-                <FontAwesomeIcon icon={faCirclePlay} className="hover:text-[#25ccee] duration-[.2s] transition-colors hover:cursor-pointer"/>
+                <FontAwesomeIcon
+                  icon={faCirclePlay}
+                  className="hover:text-[#25ccee] duration-[.2s] transition-colors hover:cursor-pointer"
+                />
               </div>
             </div>
           </div>
