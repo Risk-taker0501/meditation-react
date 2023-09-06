@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import {
-  faPatreon,
-} from "@fortawesome/free-brands-svg-icons";
+import { faPatreon } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const GradientBackground = styled.div`
@@ -26,8 +24,9 @@ const About: React.FC = () => {
                 </p>
               </div>
               <div className="md:w-3/4 w-full lg:pl-[100px]">
-                <h1 className="text-[#121212] font-[700] md:text-[48px] text-[20px]">
-                  The Laugh Factory - a Podcast about funny things in life.
+                <h1 className="text-[#121212] font-[700] md:text-[36px] text-[20px]">
+                  The Balanced Wellness - a Podcast about the better things in
+                  life.
                 </h1>
               </div>
             </div>

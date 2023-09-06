@@ -36,9 +36,9 @@ const HomePage: React.FC = () => {
                   Welcome to
                 </p>
                 <p className="font-bold text-center font-space-grotesk md:text-5xl text-[22px] relative z-10">
-                  The Wellness{" "}
+                  The Balanced{" "}
                   <span className="text-transparent bg-gradient-to-r bg-clip-text from-red-500 to-blue-500">
-                    Balanced
+                    Wellness
                   </span>
                 </p>
                 <span className="absolute font-archivo md:text-[90px] text-[40px] font-bold drop-shadow-md opacity-50 text-white leading-[120px] top-1/3 left-[40px] md:left-1/3 z-0">

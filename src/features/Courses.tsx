@@ -45,12 +45,12 @@ const Courses: React.FC = () => {
       </HeaderContainer>
       <CourseWrapper className="sm:p-12 p-8 ">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
+          <CourseItem title="Awareness of People Just Like You"/>
+          <CourseItem title="Breathing Self-Compassion"/>
+          <CourseItem title="Compassion for Your Emotions"/>
+          <CourseItem title="Identifying Self-Judgment and Bringing in Self-Compassion."/>
+          <CourseItem title="Loving Kindness Meditation, Guided Meditation"/>
+          <CourseItem title="Recognizing What You Need, Guided Meditation"/>
         </div>
       </CourseWrapper>
     </div>

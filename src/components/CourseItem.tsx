@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 import ReactStars from "react-stars";
 
-const CourseItem = () => {
+const CourseItem = ({ title }: { title: string }) => {
   return (
     <div className="max-w-[450px] bg-white hover:bg-red-600 transition-colors duration-500 p-8 border-gray-200 rounded-xl shadow-[rgba(33,33,33,0.4)_0px_0px_5px_1px] dark:bg-gray-800 dark:border-gray-700 group">
       <div className="relative overflow-hidden rounded-xl">
@@ -15,13 +15,13 @@ const CourseItem = () => {
           alt=""
           loading="lazy"
         />
-        <div className="absolute right-0 top-[80px] h-10 w-[180px] rounded-l-lg bg-blue-800 hover:bg-white hover:text-blue-800 transition duration-500 text-white opacity-0 group-hover:opacity-100">
+        <div className="absolute right-0 top-[80px] h-10 w-[280px] rounded-l-lg bg-blue-800 hover:bg-white hover:text-blue-800 transition duration-500 text-white opacity-0 group-hover:opacity-100">
           <Link
             to="/meditation-react/"
             rel="tag"
             className="flex justify-center items-center h-full"
           >
-            Computer Science
+            Compassion, Love, Forgiveness
           </Link>
         </div>
       </div>
@@ -38,7 +38,7 @@ const CourseItem = () => {
           <span>&nbsp;{"(1)"}</span>
         </div>
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 group-hover:text-white dark:text-white">
-          Web Designing
+          {title}
         </h5>
         <p className="mb-3 font-normal text-gray-700 group-hover:text-white dark:text-gray-400">
           Here are the biggest enterprise technology acquisitions of 2021 so
