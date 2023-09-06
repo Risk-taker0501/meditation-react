@@ -5,7 +5,7 @@ const Logo: React.FC = () => {
     <div className="flex items-center">
       <h1 className="md:text-4xl text-[25px] font-medium font-this-july">
         <a href="/meditation-react/">
-          <img className="h-[70px]" src="/mediation-react/images/logo.png" alt="logo" />
+          <img className="h-[70px]" src="/meditation-react/images/logo.png" alt="logo" />
         </a>
       </h1>
     </div>
