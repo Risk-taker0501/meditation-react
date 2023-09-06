@@ -46,9 +46,7 @@ const HomePage: React.FC = () => {
                 </span>
               </div>
               <p className="font-jost text-center text-xl mb-[20px] relative z-10">
-                It&#39;s a show about the life of the digital nomads all over
-                the world and what they struggle with or what happens to them
-                when they travel.
+              Shannon Merceron, a renowned meditation guide vocalist/advocate, bringing you an original episode every week, to help you relax and be happier.
               </p>
               <div className="mt-12">
                 <h3 className="text-[#AD9DC5] text-[15px] uppercase tracking-[2.5px] font-[600] font-['Jost'] mb-3 text-center">
