@@ -5,7 +5,7 @@ const Card: React.FC = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/meditation-react/episode");
+    navigate("/episode");
   };
   return (
     <div
