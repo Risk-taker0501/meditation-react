@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React from "react";
 import styled from "styled-components";
-import Card from "../components/Card";
 import Button from "../components/Button";
 import {
   faSpotify,
@@ -12,7 +11,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faPodcast,
-  faQuoteRightAlt,
   faArrowRight,
   faCalendar,
   faListOl,
@@ -20,41 +18,11 @@ import {
   faCirclePlay,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 const GradientBackground = styled.div`
   width: 100%;
   background-image: linear-gradient(to bottom, #fdebd0, #d2b4de, #fdebd0);
 `;
-
-interface ArrowProps {
-  className?: string;
-  onClick?: React.MouseEventHandler;
-  style?: any;
-}
-
-const PrevArrow = (props: ArrowProps) => {
-  const { className, onClick, style } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, left: "210px", zIndex: 2 }}
-      onClick={onClick}
-    />
-  );
-};
-const NextArrow = (props: ArrowProps) => {
-  const { className, onClick, style } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, right: "210px", zIndex: 2 }}
-      onClick={onClick}
-    />
-  );
-};
 
 const HomePage: React.FC = () => {
   return (
@@ -62,12 +30,12 @@ const HomePage: React.FC = () => {
       <div className="container mx-auto px-[50px] pt-24 md:pt-40">
         <div className="md:mx-auto md:max-w-[1140px] lg:mx-auto lg:max-w-container-lg">
           <div className="flex md:flex-row flex-col-reverse">
-            <div className="lg:max-w-[710px] lg:pt-150 lg:pr-[150px]">
+            <div className="mx-auto lg:max-w-[600px] lg:pt-150">
               <div className="relative mb-8">
-                <p className="md:text-start text-center mt-8 md:mt-0 text-[#CBA789] text-md font-jost font-bold tracking-[1.8px]">
+                <p className="text-center mt-8 md:mt-0 text-[#CBA789] text-md font-jost font-bold tracking-[1.8px]">
                   Welcome to
                 </p>
-                <p className="font-bold text-center md:text-start font-space-grotesk md:text-5xl text-[22px] relative z-10">
+                <p className="font-bold text-center font-space-grotesk md:text-5xl text-[22px] relative z-10">
                   The Laugh{" "}
                   <span className="text-transparent bg-gradient-to-r bg-clip-text from-red-500 to-blue-500">
                     Factory
@@ -77,17 +45,16 @@ const HomePage: React.FC = () => {
                   podcast
                 </span>
               </div>
-              <p className="font-jost text-center md:text-start text-xl mb-[20px] relative z-10">
-                {" "}
+              <p className="font-jost text-center text-xl mb-[20px] relative z-10">
                 It&#39;s a show about the life of the digital nomads all over
                 the world and what they struggle with or what happens to them
                 when they travel.
               </p>
               <div className="mt-12">
-                <h3 className="text-[#AD9DC5] text-[15px] uppercase tracking-[2.5px] font-[600] font-['Jost'] mb-3 text-center md:text-start">
+                <h3 className="text-[#AD9DC5] text-[15px] uppercase tracking-[2.5px] font-[600] font-['Jost'] mb-3 text-center">
                   Listen & Subscribe On:
                 </h3>
-                <div className="flex flex-wrap md:justify-start justify-center">
+                <div className="flex flex-wrap justify-center">
                   <div className="mr-4 mb-3">
                     <Button link="s" name="Spotify" icon={faSpotify} />
                   </div>
@@ -105,75 +72,6 @@ const HomePage: React.FC = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <img
-                src="/meditation-react/images/laughman.jpg"
-                alt="photo"
-                className="mx-auto rounded-2xl w-[455px] h-auto shadow-[1px_18px_36px_-9px_rgba(223.3645935058594,110.79569661052766,23.56388967513289,0.65)]"
-              />
-            </div>
-          </div>
-          <div className="md:mb-40">
-            <div>
-              <h1 className="text-[26px] text-[#8A7A8A] font-[700]">
-                Latest Episodes
-              </h1>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 mt-4">
-              <Card />
-              <Card />
-              <Card />
-              <Card />
-              <Card />
-              <Card />
-            </div>
-          </div>
-          <div className="flex justify-between mb-12 flex-wrap">
-            <div>
-              <h4 className="text-[#AD9DC5] text-[15px] uppercase font-[500] font-['Jost'] tracking-[2.5px]">
-                - Meet Your Host
-              </h4>
-              <p className="text-[#444] font-['Sen'] text-[16px] leading-loose">
-                Get to know me.
-              </p>
-            </div>
-            <div className="md:w-2/3 w-full lg:pl-[100px]">
-              <h1 className="text-[#121212] font-[700] md:text-[40px] text-[20px]">
-                I am the guy behind the show, podcasting since ’99.
-              </h1>
-            </div>
-          </div>
-          <div className="md:flex">
-            <div className="md:w-3/5 w-full md:pr-[150px]">
-              <h1 className="font-['Jost'] text-[#29282A] tracking-[3px] text-[20px] font-[500] uppercase mb-6">
-                HELLO, I AM JASON, YOUR HOST.
-              </h1>
-              <p className="text-[#444] font-['Sen'] text-[16px] leading-loose mb-8">
-                Leave that to me. Send a distress signal, and inform the Senate
-                that all on board were killed. Dantooine. They’re on Dantooine.
-                The plans you refer to will soon be back in our hands. Alderaan?
-                I’m not going to Alderaan. I’ve got to go home.
-              </p>
-              <p className="text-[#444] font-['Sen'] text-[16px] leading-loose mb-8">
-                I find your lack of faith disturbing. Kid, I’ve flown from one
-                side of this galaxy to the other. I’ve seen a lot of strange
-                stuff, but I’ve never seen anything to make me believe there’s
-                one all-powerful Force controlling everything. There’s no
-                mystical energy field that controls my destiny. It’s all a lot
-                of simple tricks.
-              </p>
-              <h2 className="text-[#771CAB] font-loversQuarrel text-[46px]">
-                Jason Harshall
-              </h2>
-              <div></div>
-            </div>
-            <div className="md:w-2/5">
-              <img
-                className="rounded-[20px]"
-                src="/meditation-react/images/ahmetoz_a_podcaster_man_with_a_microphone_with_podcast_title_on_af476cf5-1cfa-4f49-b667-cbe872b36fad-768x768.jpg"
-                alt="jason"
-              />
             </div>
           </div>
         </div>
@@ -216,130 +114,6 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       </div>
-      <Slider
-        className="md:mb-40 mb-20"
-        centerMode={true}
-        infinite={true}
-        speed={500}
-        centerPadding="220px"
-        slidesToShow={1}
-        slidesToScroll={1}
-        nextArrow={<NextArrow />}
-        prevArrow={<PrevArrow />}
-        responsive={[
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              centerMode: false,
-              nextArrow: <></>,
-              prevArrow: <></>,
-            },
-          },
-        ]}
-      >
-        <div className="px-10">
-          <div className="flex justify-center">
-            <FontAwesomeIcon
-              className="font-[400] text-[#AE85DA] text-[48px]"
-              icon={faQuoteRightAlt}
-            />
-          </div>
-          <h1 className="font-['Jost'] md:text-[37px] font-[400] tracking-0 text-[#7D4A92] text-center">
-            I love this show, by far from the countries Vokalia and Consonantia.
-            I am really looking forward to work together for the next project.
-          </h1>
-          <div>
-            <img
-              className="h-[80px] w-[80px] mx-auto rounded-full mt-8 mb-3"
-              src="/meditation-react/images/shamim-nakhaei-u6oXAJWx4sE-unsplash.jpg"
-              alt="face"
-            />
-            <h1 className="text-center uppercase text-[#7B5E93] text-[16px] font-[700] font-['Sen']">
-              richard han
-            </h1>
-            <h3 className="text-center text-[#583D968A] text-[16px] font-[400] font-['Sen']">
-              CTO at Dporbox
-            </h3>
-          </div>
-        </div>
-        <div className="px-10">
-          <div className="flex justify-center">
-            <FontAwesomeIcon
-              className="font-[400] text-[#AE85DA] text-[48px]"
-              icon={faQuoteRightAlt}
-            />
-          </div>
-          <h1 className="font-['Jost'] md:text-[37px] font-[400] tracking-0 text-[#7D4A92] text-center">
-            I love this show, by far from the countries Vokalia and Consonantia.
-            I am really looking forward to work together for the next project.
-          </h1>
-          <div>
-            <img
-              className="h-[80px] w-[80px] mx-auto rounded-full mt-8 mb-3"
-              src="/meditation-react/images/shamim-nakhaei-u6oXAJWx4sE-unsplash.jpg"
-              alt="face"
-            />
-            <h1 className="text-center uppercase text-[#7B5E93] text-[16px] font-[700] font-['Sen']">
-              richard han
-            </h1>
-            <h3 className="text-center text-[#583D968A] text-[16px] font-[400] font-['Sen']">
-              CTO at Dporbox
-            </h3>
-          </div>
-        </div>
-        <div className="px-10">
-          <div className="flex justify-center">
-            <FontAwesomeIcon
-              className="font-[400] md:text-[#AE85DA] text-[48px]"
-              icon={faQuoteRightAlt}
-            />
-          </div>
-          <h1 className="font-['Jost'] md:text-[37px] font-[400] tracking-0 text-[#7D4A92] text-center">
-            I love this show, by far from the countries Vokalia and Consonantia.
-            I am really looking forward to work together for the next project.
-          </h1>
-          <div>
-            <img
-              className="h-[80px] w-[80px] mx-auto rounded-full mt-8 mb-3"
-              src="/meditation-react/images/shamim-nakhaei-u6oXAJWx4sE-unsplash.jpg"
-              alt="face"
-            />
-            <h1 className="text-center uppercase text-[#7B5E93] text-[16px] font-[700] font-['Sen']">
-              richard han
-            </h1>
-            <h3 className="text-center text-[#583D968A] text-[16px] font-[400] font-['Sen']">
-              CTO at Dporbox
-            </h3>
-          </div>
-        </div>
-        <div className="px-10">
-          <div className="flex justify-center">
-            <FontAwesomeIcon
-              className="font-[400] text-[#AE85DA] text-[48px]"
-              icon={faQuoteRightAlt}
-            />
-          </div>
-          <h1 className="font-['Jost'] md:text-[37px] font-[400] tracking-0 text-[#7D4A92] text-center">
-            I love this show, by far from the countries Vokalia and Consonantia.
-            I am really looking forward to work together for the next project.
-          </h1>
-          <div>
-            <img
-              className="h-[80px] w-[80px] mx-auto rounded-full mt-8 mb-3"
-              src="/meditation-react/images/shamim-nakhaei-u6oXAJWx4sE-unsplash.jpg"
-              alt="face"
-            />
-            <h1 className="text-center uppercase text-[#7B5E93] text-[16px] font-[700] font-['Sen']">
-              richard han
-            </h1>
-            <h3 className="text-center text-[#583D968A] text-[16px] font-[400] font-['Sen']">
-              CTO at Dporbox
-            </h3>
-          </div>
-        </div>
-      </Slider>
       <div className="container mx-auto px-[50px] mb-48">
         <div className="md:mx-auto md:max-w-[1140px] lg:mx-auto lg:max-w-container-lg">
           <div className="flex w-full px-[2.4rem] py-[4%] bg-[#FFF9CD66] shadow-[0_2px_4px_#0000001a] rounded mb-3">
