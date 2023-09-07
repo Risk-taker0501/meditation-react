@@ -1,7 +1,5 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
-import Button from "../components/Button";
 import {
   faSpotify,
   faGooglePlus,
@@ -16,15 +14,38 @@ import {
   faListOl,
   faStopwatch,
   faCirclePlay,
+  faClose,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ReactPlayer from "react-player";
+
+import Button from "../components/Button";
 
 const GradientBackground = styled.div`
   width: 100%;
   background-image: linear-gradient(to bottom, #fdebd0, #d2b4de, #fdebd0);
 `;
 
+const Overlay = styled.div`
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+`;
+
 const HomePage: React.FC = () => {
+  const [playVideo, setPlayVideo] = useState(false);
+
+  const [playUrl, setPlayUrl] = useState("");
+
+  const clickPlay = (url: string) => {
+    setPlayUrl(url);
+    setPlayVideo(true);
+  };
+
   return (
     <GradientBackground>
       <div className="container mx-auto px-[50px] pt-24 md:pt-40">
@@ -121,7 +142,7 @@ const HomePage: React.FC = () => {
               <div>
                 <img
                   className="rounded"
-                  src="/meditation-react/images/https___megaphone.imgix.net_podcasts_44edeb4a-2ae2-11ed-a26e-6fab10a77fe4_image_Sleep_Wave_-_Sleep_Meditations.png_ixlib=rails-4.3.avif"
+                  src="/meditation-react/images/logo_1.png"
                   alt=""
                 />
               </div>
@@ -156,9 +177,10 @@ const HomePage: React.FC = () => {
                   star...
                 </p>
               </div>
-              <div className="text-[56px] text-[#844eb1] ">
+              <div className="text-[56px] text-[#844eb1]">
                 <FontAwesomeIcon
                   icon={faCirclePlay}
+                  onClick={() => clickPlay("/video/Media1.mp4")}
                   className="hover:text-[#25ccee] duration-[.2s] transition-colors hover:cursor-pointer"
                 />
               </div>
@@ -169,8 +191,8 @@ const HomePage: React.FC = () => {
               <div>
                 <img
                   className="rounded"
-                  src="/images/https___megaphone.imgix.net_podcasts_44edeb4a-2ae2-11ed-a26e-6fab10a77fe4_image_Sleep_Wave_-_Sleep_Meditations.png_ixlib=rails-4.3.avif"
-                  alt=""
+                  src="/meditation-react/images/logo_1.png"
+                  alt="logo"
                 />
               </div>
             </div>
@@ -256,6 +278,27 @@ const HomePage: React.FC = () => {
       <div className="text-center tracking-[3px] font-[700] font-jost py-4">
         ©2023 THE BALANCED WELLNESS
       </div>
+      {playVideo && (
+        <Overlay>
+          <div className="flex justify-center items-center w-full h-full relative">
+            <ReactPlayer
+              url={playUrl}
+              controls
+              width="1000px"
+              height="auto"
+              playing
+            />
+            <div
+              onClick={() => setPlayVideo(false)}
+              className="w-[40px] h-[40px] bg-[#333] rounded-full absolute top-5 right-5 flex items-center justify-center"
+            >
+              <div className="text-[#fff]">
+                <FontAwesomeIcon icon={faClose} />
+              </div>
+            </div>
+          </div>
+        </Overlay>
+      )}
     </GradientBackground>
   );
 };
