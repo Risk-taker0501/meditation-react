@@ -180,7 +180,7 @@ const HomePage: React.FC = () => {
               <div className="text-[56px] text-[#844eb1]">
                 <FontAwesomeIcon
                   icon={faCirclePlay}
-                  onClick={() => clickPlay("/video/Media1.mp4")}
+                  onClick={() => clickPlay("/meditation-react/video/Media1.mp4")}
                   className="hover:text-[#25ccee] duration-[.2s] transition-colors hover:cursor-pointer"
                 />
               </div>
