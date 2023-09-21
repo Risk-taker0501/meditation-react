@@ -49,7 +49,7 @@ const HomePage: React.FC = () => {
 
   return (
     <GradientBackground>
-      <div className="container mx-auto px-[50px] pt-24 md:pt-40">
+      <div className="container mx-auto md:px-[50px] px-[10px] pt-24 md:pt-40">
         <div className="md:mx-auto md:max-w-[1140px] lg:mx-auto lg:max-w-container-lg">
           <div className="flex md:flex-row flex-col-reverse">
             <div className="mx-auto lg:max-w-[600px] lg:pt-150">
@@ -141,7 +141,7 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-[50px] mb-48">
+      <div className="container mx-auto md:px-[50px] px-[10px] mb-48">
         <div className="md:mx-auto md:max-w-[1140px] lg:mx-auto lg:max-w-container-lg text-center md:text-start">
           <div className="md:flex w-full md:px-[2.4rem] px-5 py-[4%] bg-[#FFF9CD66] shadow-[0_2px_4px_#0000001a] rounded mb-3">
             <div className="md:w-1/4 pr-[4%] flex items-center mb-3">
