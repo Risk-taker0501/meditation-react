@@ -17,7 +17,7 @@ const CourseItem = ({ title }: { title: string }) => {
         />
         <div className="absolute right-0 top-[80px] h-10 w-[280px] rounded-l-lg bg-blue-800 hover:bg-white hover:text-blue-800 transition duration-500 text-white opacity-0 group-hover:opacity-100">
           <Link
-            to="/meditation-react/"
+            to="/"
             rel="tag"
             className="flex justify-center items-center h-full"
           >
@@ -65,7 +65,7 @@ const CourseItem = ({ title }: { title: string }) => {
           </div>
           <div className="opacity-0 group-hover:opacity-100 transition duration-500">
             <Link
-              to="/meditation-react/"
+              to="/"
               className="flex items-center justify-center rounded-full text-center hover:bg-blue-800 transition-colors duration-500 bg-white w-[150px] h-10 font-bold hover:text-white text-black"
             >
               Read more
