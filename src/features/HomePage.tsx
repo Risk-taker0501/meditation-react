@@ -148,7 +148,7 @@ const HomePage: React.FC = () => {
               <div>
                 <img
                   className="rounded"
-                  src="/meditation-react/images/logo_1.png"
+                  src="/meditation-react/images/logo-new.png"
                   alt=""
                 />
               </div>
@@ -199,7 +199,7 @@ const HomePage: React.FC = () => {
               <div>
                 <img
                   className="rounded"
-                  src="/meditation-react/images/logo_1.png"
+                  src="/meditation-react/images/logo-new.png"
                   alt="logo"
                 />
               </div>
@@ -285,7 +285,7 @@ const HomePage: React.FC = () => {
       </div>
       <div className="grid mx-auto max-w-[1140px] py-4 font-jost text-[20px]">
         <div className="flex justify-between border-b border-[#bbbbbb]">
-          <img className="h-[100px]" src="/meditation-react/images/logo.png" alt="logo" />
+          <img className="h-[100px]" src="/meditation-react/images/logo-new.png" alt="logo" />
           <div className="">
             contact info:
             <div>Email: <a href="mailto:balancedwellnesshealth@gmail.com">balancedwellnesshealth@gmail.com</a></div>
