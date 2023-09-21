@@ -142,9 +142,9 @@ const HomePage: React.FC = () => {
         </div>
       </div>
       <div className="container mx-auto px-[50px] mb-48">
-        <div className="md:mx-auto md:max-w-[1140px] lg:mx-auto lg:max-w-container-lg">
-          <div className="flex w-full px-[2.4rem] py-[4%] bg-[#FFF9CD66] shadow-[0_2px_4px_#0000001a] rounded mb-3">
-            <div className="w-1/4 pr-[4%] flex items-center">
+        <div className="md:mx-auto md:max-w-[1140px] lg:mx-auto lg:max-w-container-lg text-center md:text-start">
+          <div className="md:flex w-full md:px-[2.4rem] px-5 py-[4%] bg-[#FFF9CD66] shadow-[0_2px_4px_#0000001a] rounded mb-3">
+            <div className="md:w-1/4 pr-[4%] flex items-center mb-3">
               <div>
                 <img
                   className="rounded"
@@ -153,7 +153,7 @@ const HomePage: React.FC = () => {
                 />
               </div>
             </div>
-            <div className="w-3/4">
+            <div className="md:w-3/4">
               <div className="mb-7">
                 <span className="pr-5 text-[1rem] font-jost tracking-[1px] text-[#444]">
                   <FontAwesomeIcon icon={faCalendar} className="pr-1" />
@@ -169,7 +169,7 @@ const HomePage: React.FC = () => {
                 </span>
               </div>
               <div className="mb-1">
-                <h1 className="font-[700] text-[2rem] font-['Sen'] hover:text-[#844eb1] hover:cursor-pointer">
+                <h1 className="font-[700] md:text-[2rem] text-[24px] font-['Sen'] hover:text-[#844eb1] hover:cursor-pointer">
                   Sleep Meditation - Creating Space To Be
                 </h1>
               </div>
@@ -194,17 +194,17 @@ const HomePage: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="flex w-full px-[2.4rem] py-[4%] bg-[#FFF9CD66] shadow-[0_2px_4px_#0000001a] rounded">
-            <div className="w-1/4 pr-[4%] flex items-center">
+          <div className="md:flex w-full md:px-[2.4rem] px-5 py-[4%] bg-[#FFF9CD66] shadow-[0_2px_4px_#0000001a] rounded mb-3">
+            <div className="md:w-1/4 pr-[4%] flex items-center mb-3">
               <div>
                 <img
                   className="rounded"
                   src="/meditation-react/images/logo-new.png"
-                  alt="logo"
+                  alt=""
                 />
               </div>
             </div>
-            <div className="w-3/4">
+            <div className="md:w-3/4">
               <div className="mb-7">
                 <span className="pr-5 text-[1rem] font-jost tracking-[1px] text-[#444]">
                   <FontAwesomeIcon icon={faCalendar} className="pr-1" />
@@ -220,7 +220,7 @@ const HomePage: React.FC = () => {
                 </span>
               </div>
               <div className="mb-1">
-                <h1 className="font-[700] text-[2rem] font-['Sen'] hover:text-[#844eb1] hover:cursor-pointer">
+                <h1 className="font-[700] md:text-[2rem] text-[24px] font-['Sen'] hover:text-[#844eb1] hover:cursor-pointer">
                   Sleep Meditation - Creating Space To Be
                 </h1>
               </div>
@@ -237,6 +237,9 @@ const HomePage: React.FC = () => {
               <div className="text-[56px] text-[#844eb1]">
                 <FontAwesomeIcon
                   icon={faCirclePlay}
+                  onClick={() =>
+                    clickPlay("/meditation-react/video/Media1.mp4")
+                  }
                   className="hover:text-[#25ccee] duration-[.2s] transition-colors hover:cursor-pointer"
                 />
               </div>
@@ -283,14 +286,27 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="grid mx-auto max-w-[1140px] py-4 font-jost text-[20px]">
-        <div className="flex justify-between border-b border-[#bbbbbb]">
-          <img className="h-[100px]" src="/meditation-react/images/logo-new.png" alt="logo" />
+      <div className="grid mx-auto max-w-[1140px] py-4 font-jost text-[20px] md:text-start text-center">
+        <div className="md:flex justify-between border-b border-[#bbbbbb]">
+          <img
+            className="h-[100px] md:mx-0 mx-auto"
+            src="/meditation-react/images/logo-new.png"
+            alt="logo"
+          />
           <div className="">
             contact info:
-            <div>Email: <a href="mailto:balancedwellnesshealth@gmail.com">balancedwellnesshealth@gmail.com</a></div>
+            <div>
+              Email:{" "}
+              <a href="mailto:balancedwellnesshealth@gmail.com">
+                balancedwellnesshealth@gmail.com
+              </a>
+            </div>
             <div>Phone: +1 234 546 4234</div>
-            <div><a href="https://linkedin.com/"><FontAwesomeIcon className="text-[#0077b5]" icon={faLinkedin}/></a></div>          
+            <div>
+              <a href="https://linkedin.com/">
+                <FontAwesomeIcon className="text-[#0077b5]" icon={faLinkedin} />
+              </a>
+            </div>
           </div>
         </div>
         <div className="text-center mt-2">@2023 The balanced wellness</div>
