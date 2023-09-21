@@ -100,6 +100,9 @@ const HomePage: React.FC = () => {
                 </div>
               </div>
             </div>
+            <div className="my-auto ml-5 md:h-96">
+              <img className="rounded-lg shadow-[5px_5px_10px_#000000aa]" src="/meditation-react/images/ashley-batz-betmVWGYcLY-unsplash.jpg" alt="" />
+            </div>
           </div>
         </div>
       </div>
