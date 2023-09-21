@@ -9,7 +9,7 @@ const Header = () => {
 
   const genericHamburgerLine = `h-[2px] w-[17px] my-[2px] transition ease transform duration-300`;
   return (
-    <header className="bg-[#fdebd0] fixed w-full z-20 shadow-md">
+    <header className="bg-[#ffebd0] fixed w-full z-20 shadow-md">
       <div className="container max-w-[1140px] mx-auto md:h-[90px] h-[70px] flex items-center md:px-4 px-2 md:justify-between">
         <div className="flex md:hidden">
           <button

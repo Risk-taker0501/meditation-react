@@ -6,6 +6,7 @@ import {
   faSoundcloud,
   faMixcloud,
   faPatreon,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faPodcast,
@@ -53,23 +54,28 @@ const HomePage: React.FC = () => {
           <div className="flex md:flex-row flex-col-reverse">
             <div className="mx-auto lg:max-w-[600px] lg:pt-150">
               <div className="relative mb-8">
-                <p className="text-center mt-8 md:mt-0 text-[#CBA789] text-md font-jost font-bold tracking-[1.8px]">
+                <p className="text-center mt-8 md:mt-0 text-[#CBA789] text-md font-jost font-[900] tracking-[1.8px]">
                   Welcome to
                 </p>
-                <p className="font-bold text-center font-space-grotesk md:text-5xl text-[22px] relative z-10">
-                  The Balanced{" "}
-                  <span className="text-transparent bg-gradient-to-r bg-clip-text from-red-500 to-blue-500">
+                <p className="font-bold text-center font-jost md:text-5xl text-[22px] relative z-10">
+                  The BALANCED{" "}
+                  <span className="uppercase text-transparent bg-gradient-to-r bg-clip-text from-red-500 to-blue-500">
                     Wellness
                   </span>
                 </p>
                 <span className="absolute font-archivo md:text-[90px] text-[40px] font-bold drop-shadow-md opacity-50 text-white leading-[120px] top-1/3 left-[40px] md:left-1/3 z-0">
-                  podcast
+                  Health
                 </span>
               </div>
               <p className="font-jost text-center text-xl mb-[20px] relative z-10">
-                Shannon Merceron, a renowned meditation guide vocalist/advocate,
-                bringing you an original episode every week, to help you relax
-                and be happier.
+                Introducing “The Balanced Wellness” - Shana Eloy’s meditation
+                sanctuary. Immerse yourself in the transformative power of
+                mindfulness and embark on a journey of self-discovery and inner
+                peace. With Shana’s guidance, unlock the secrets to reducing
+                stress, enhancing clarity, and cultivating a balanced
+                well-being. Join us on this path to holistic wellness and
+                experience the profound benefits that meditation can bring to
+                your life.
               </p>
               <div className="mt-12">
                 <h3 className="text-[#AD9DC5] text-[15px] uppercase tracking-[2.5px] font-[600] font-['Jost'] mb-3 text-center">
@@ -180,7 +186,9 @@ const HomePage: React.FC = () => {
               <div className="text-[56px] text-[#844eb1]">
                 <FontAwesomeIcon
                   icon={faCirclePlay}
-                  onClick={() => clickPlay("/meditation-react/video/Media1.mp4")}
+                  onClick={() =>
+                    clickPlay("/meditation-react/video/Media1.mp4")
+                  }
                   className="hover:text-[#25ccee] duration-[.2s] transition-colors hover:cursor-pointer"
                 />
               </div>
@@ -275,8 +283,17 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="text-center tracking-[3px] font-[700] font-jost py-4">
-        ©2023 THE BALANCED WELLNESS
+      <div className="grid mx-auto max-w-[1140px] py-4 font-jost text-[20px]">
+        <div className="flex justify-between border-b border-[#bbbbbb]">
+          <img className="h-[100px]" src="/meditation-react/images/logo.png" alt="logo" />
+          <div className="">
+            contact info:
+            <div>Email: <a href="mailto:balancedwellnesshealth@gmail.com">balancedwellnesshealth@gmail.com</a></div>
+            <div>Phone: +1 234 546 4234</div>
+            <div><a href="https://linkedin.com/"><FontAwesomeIcon className="text-[#0077b5]" icon={faLinkedin}/></a></div>          
+          </div>
+        </div>
+        <div className="text-center mt-2">@2023 The balanced wellness</div>
       </div>
       {playVideo && (
         <Overlay>
