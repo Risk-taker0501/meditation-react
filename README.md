@@ -13,8 +13,7 @@ This is a [React](https://reactjs.org) + [TypeScript](https://www.typescriptlang
 
 ## Getting started
 
-1. Clone the repository.
-
+1. Clone the repository.yes
     ```bash
     git clone https://github.com/IsaiaPhiliph/vite-reactts-tailwind-rtk-eslint.git
     ```
